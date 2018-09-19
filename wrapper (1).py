@@ -6,7 +6,7 @@ import urllib
 
 appName = sys.argv[1]
 appID = "72f0a411ce48c764ca71ce24ffd60055"
-token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVudGVycHJpc2VfdXNlciIsIm9yaWdfaWF0IjoxNTM3MzUyODEwLCJ1c2VyX2lkIjoxLCJlbWFpbCI6ImVudGVycHJpc2VfdXNlckBhY2NlbnR1cmUuY29tIiwiZXhwIjoxNTM3NDM5MjEwfQ.T9xWuiAfuoxj5UZkCCErj9a_RtTI2dmbMxXW1JZ8ySY"
+token = " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVudGVycHJpc2VfdXNlciIsIm9yaWdfaWF0IjoxNTM3MzUzMjI2LCJ1c2VyX2lkIjoxLCJlbWFpbCI6ImVudGVycHJpc2VfdXNlckBhY2NlbnR1cmUuY29tIiwiZXhwIjoxNTM3NDM5NjI2fQ.-JF1ypIcTXfxZ_RASvHjbmLoPs5PVeP-LHXuQVdUaVg"
 
 token = str(token).strip()
 appID = str(appID).strip()
