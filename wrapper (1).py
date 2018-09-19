@@ -11,7 +11,7 @@ token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVudGVycHJpc2VfdX
 token = str(token).strip()
 appID = str(appID).strip()
 
-url = 'https://appsecure.accenture.com/api/scan_binary/'
+url = 'http://10.196.71.247:9090/api/scan_binary/'
 
 path = os.environ['JENKINS_HOME']+'/jobs/'+os.environ['JOB_NAME']+'/workspace/'+appName
 
@@ -37,7 +37,7 @@ if data['status'] == 'Failed':
 x = str(data['message']).split("=")
 x = x[1]
 
-checkurl = 'https://appsecure.accenture.com/api/executive_report/'
+checkurl = 'http://10.196.71.247:9090/api/executive_report/'
 values = {'appId' : x, }
 authtoken = "JWT "+str(token)
 headers = { "Authorization" : authtoken }
